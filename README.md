@@ -2,8 +2,6 @@
 
 This repository documents the step-by-step process of how I created my first EC2 instance on AWS and set up monitoring with CloudWatch and SNS notifications.
 
----
-
 ## Step 1: Launching the Instance
 - Logged into the **AWS Management Console**.
 - Navigated to **EC2 → Instances → Launch Instance**.
@@ -13,10 +11,6 @@ This repository documents the step-by-step process of how I created my first EC2
 - Configured a **security group** to allow:
   - SSH (port 22) for Linux access
   - HTTP/HTTPS if hosting a web app
-
-📸 *Screenshot Placeholder: EC2 Launch Wizard*
-
----
 
 ## Step 2: Connecting to the Instance
 - Downloaded the `.pem` key file.
